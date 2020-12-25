@@ -1,0 +1,18 @@
+.container-type1{
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    position: relative;
+    padding-top: 30px;
+}
+.container-type1 .select-component{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    color: blue;
+    z-index: 2;
+}
+.container-type1 .select-component:hover{
+    opacity: 0.6;
+}

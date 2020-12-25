@@ -1,0 +1,55 @@
+.component-setting{
+    background: #fff;
+    position: fixed;
+    z-index: 9;
+    right: 0;
+    top: 0;
+    width: 400px;
+    height: 100%;
+    box-shadow: -2px 0 10px 0 rgba(51,51,51,.15);
+    padding-bottom: 50px;
+    .title{
+        font-size: 18px;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc;
+        .closeOutlined{
+            cursor: pointer;
+            &:hover{
+                color: #20a2ed;
+            }
+        }
+    }
+    .setting-style-content{
+        .attr-item{
+            height: 50px;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .attr-item-label{
+                min-width: 80px;
+            }
+            .attr-item-value{
+                flex: 1;
+            }
+        }
+    }
+    .footer-btn{
+        height: 50px;
+        background: #ffffff;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0 10px;
+        .ant-btn-primary{
+            margin-left: 20px;
+        }
+    }
+}

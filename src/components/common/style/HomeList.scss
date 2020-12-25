@@ -1,0 +1,62 @@
+.HomeList{
+    padding-bottom: 20px;
+    .item{
+        background: #fff;
+        width: 300px;
+        height: 135px;
+        margin-left: 20px;
+        margin-top: 20px;
+        display: inline-block;
+        vertical-align: middle;
+        border: 1px solid #ebebeb;
+        font-size: 14px;
+        padding: 20px 10px;
+        border-radius: 4px;
+        &.add{
+            text-align: center;
+            font-size: 36px;
+            line-height: 93px;
+            color: #aaa;
+            cursor: pointer;
+            &:hover{
+                color: #409eff;
+                border: 1px solid #409eff;
+            }
+        }
+        .title {
+            font-size: 18px;
+            color: #000000;;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .other {
+            padding: 15px 0;
+        }
+        .handle {
+            text-align: right;
+
+            span {
+                margin-left: 10px;
+                cursor: pointer;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+
+            .edit {
+                color: #409EFF;
+            }
+
+            .view {
+                color: #67C23A;
+            }
+
+            .del {
+                color: #F56C6C;
+            }
+        }
+    }
+}
