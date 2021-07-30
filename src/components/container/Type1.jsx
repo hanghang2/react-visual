@@ -39,7 +39,7 @@ class Type1 extends  Component{
      */
     getChildComponentData = ()=>{
         return [
-            this.getState1(),
+            this.getState1 ? this.getState1() : null,
         ]
     }
 }

@@ -3,7 +3,7 @@ import Qs from 'qs'
 
 const axiosInstance = axios.create({
     withCredentials: true,
-    baseURL: 'http://192.168.10.37:8088/Framework8/',
+    baseURL: 'http://sjpt.htc.edu.cn/visual-customer/',
     timeout: 1240000,
     headers: {
         "X-Invoker": "pc"

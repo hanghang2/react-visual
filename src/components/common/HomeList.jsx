@@ -18,6 +18,11 @@ class HomeList extends Component{
     render() {
         return (
             <div className='HomeList'>
+                <div
+                    className='item add'
+                    onClick={this.addView}>
+                    <PlusOutlined />
+                </div>
                 {
                     this.props.list.map((item)=>{
                         return (
@@ -37,11 +42,6 @@ class HomeList extends Component{
                         )
                     })
                 }
-                <div
-                    className='item add'
-                    onClick={this.addView}>
-                    <PlusOutlined />
-                </div>
             </div>
         )
     }
